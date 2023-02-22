@@ -1,5 +1,6 @@
-/home/giovanni/IdeaProjects/progetto-spring-web/src/main/java/com/example/progettospringweb/web/AppInitializer.java
-/home/giovanni/IdeaProjects/progetto-spring-web/src/main/java/com/example/progettospringweb/web/controller/LoginController.java
-/home/giovanni/IdeaProjects/progetto-spring-web/src/main/java/com/example/progettospringweb/web/controller/WelcomeController.java
-/home/giovanni/IdeaProjects/progetto-spring-web/src/main/java/com/example/progettospringweb/web/controller/RestController.java
-/home/giovanni/IdeaProjects/progetto-spring-web/src/main/java/com/example/progettospringweb/web/Config.java
+/home/giovanni/progetti-spring/progetto-spring-web/src/main/java/com/example/progettospringweb/web/controller/RestController.java
+/home/giovanni/progetti-spring/progetto-spring-web/src/main/java/com/example/progettospringweb/web/controller/EsempioController.java
+/home/giovanni/progetti-spring/progetto-spring-web/src/main/java/com/example/progettospringweb/web/controller/WelcomeController.java
+/home/giovanni/progetti-spring/progetto-spring-web/src/main/java/com/example/progettospringweb/web/controller/LoginController.java
+/home/giovanni/progetti-spring/progetto-spring-web/src/main/java/com/example/progettospringweb/web/Config.java
+/home/giovanni/progetti-spring/progetto-spring-web/src/main/java/com/example/progettospringweb/web/AppInitializer.java
