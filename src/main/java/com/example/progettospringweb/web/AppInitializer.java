@@ -1,6 +1,7 @@
 package com.example.progettospringweb.web;
 
 import org.springframework.web.context.WebApplicationContext;
+import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.FrameworkServlet;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
@@ -11,9 +12,11 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
         return new Class[0];
     }
 
+
+    //Indica all'app il file di configurazione
     @Override
-    protected Class<?>[] getServletConfigClasses() {
-        return new Class[0];
+    protected Class<?>[] getServletConfigClasses()
+    {return new Class <?>[] {Config.class};
     }
 
     @Override
@@ -21,8 +24,12 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
         return new String[]{"/"};
     }
 
+
+    // crea la dispatchet servlet
     @Override
     protected FrameworkServlet createDispatcherServlet(WebApplicationContext servletAppContext) {
-        return super.createDispatcherServlet(servletAppContext);
+        DispatcherServlet ds= new DispatcherServlet(servletAppContext);
+        ds.setThrowExceptionIfNoHandlerFound(true);
+        return ds;
     }
 }
