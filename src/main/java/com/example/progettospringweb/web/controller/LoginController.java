@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/login")
 public class LoginController {
 
-    @RequestMapping("/execute")
+
+    //dò più indirizzi al metodo
+    @RequestMapping(path={"/execute","/solve"})
     @ResponseBody
     public String login (){
         //logica del login
