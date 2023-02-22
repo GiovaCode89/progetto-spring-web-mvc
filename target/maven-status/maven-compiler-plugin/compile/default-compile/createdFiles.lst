@@ -1,0 +1,5 @@
+com/example/progettospringweb/web/controller/WelcomeController.class
+com/example/progettospringweb/web/controller/LoginController.class
+com/example/progettospringweb/web/Config.class
+com/example/progettospringweb/web/AppInitializer.class
+com/example/progettospringweb/web/controller/RestController.class
