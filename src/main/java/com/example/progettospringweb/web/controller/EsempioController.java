@@ -120,6 +120,28 @@ public class EsempioController {
 
 
 
+    //reditect : fà partire un altro metodo del controller
+    @GetMapping("/redirect")
+    @ResponseBody
+    public String redirect (){
+        return "redirect:/saluto3 ";
+    }
+
+
+
+    //forward : come redirect, ma c'è una differenza
+    @GetMapping("/forward")
+    @ResponseBody
+    public String forward (){
+        return "forward:/saluto3 ";
+    }
+
+
+    @GetMapping("/test")
+    public String getTestPage(){
+        return "test";
+    }
+
 
 //Annotation che specificano direttamente la chiamata http utile per invocare il metodo (con tanto di parte di url)
 //Queste annotation possono essere applicate solo sui metodi
